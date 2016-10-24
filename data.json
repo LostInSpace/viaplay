@@ -1,0 +1,2318 @@
+{
+  "type": "page",
+  "pageType": "product",
+  "sectionId": "2037b330-d411-11e2-8b8b-0800200c9a66",
+  "title": "Titanic - Film online på Viaplay.se",
+  "description": "Se filmen Titanic med Leonardo Dicaprio, Kathy Bates, Bill Paxton, Kate Winslet, Frances Fisher, Billy Zane, Gloria Stuart på nätet. Se filmer online på Viaplay.se!",
+  "styles": [
+  ],
+  "_links": {
+    "curies": [
+      {
+        "name": "viaplay",
+        "href": "http://docs.viaplay.tv/rel/{rel}",
+        "templated": true
+      }
+    ],
+    "self": {
+      "href": "https://content.viaplay.se/pc-se/film/titanic-1997"
+    },
+    "viaplay:root": {
+      "id": "root",
+      "title": "Start",
+      "href": "https://content.viaplay.se/pc-se"
+    },
+    "viaplay:editorial": {
+      "id": "editorial",
+      "href": "https://content.viaplay.se/pc-se/editorial"
+    },
+    "viaplay:socket": {
+      "id": "socket",
+      "href": "https://socket.viaplay.se/"
+    },
+    "viaplay:socket2": {
+      "id": "socket",
+      "href": "https://socket2.viaplay.se/"
+    },
+    "viaplay:search": {
+      "title": "Sök",
+      "href": "https://content.viaplay.se/pc-se/search{?query}",
+      "templated": true
+    },
+    "viaplay:autocomplete": {
+      "title": "autocomplete",
+      "href": "https://content.viaplay.se/pc-se/autocomplete{?query}",
+      "templated": true
+    },
+    "viaplay:validateSession": {
+      "id": "validateSession",
+      "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+      "templated": true
+    },
+    "viaplay:translations": {
+      "id": "translations",
+      "href": "https://cms-service.viaplay.se/translations/pc",
+      "templated": false
+    },
+    "viaplay:technotifier": {
+      "id": "technotifier",
+      "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/pc"
+    },
+    "viaplay:sections": [
+      {
+        "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+        "title": "Serier",
+        "href": "https://content.viaplay.se/pc-se/serier",
+        "type": "vod",
+        "name": "series"
+      },
+      {
+        "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+        "title": "Film",
+        "href": "https://content.viaplay.se/pc-se/film",
+        "type": "vod",
+        "name": "movie",
+        "active": true
+      },
+      {
+        "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+        "title": "Sport",
+        "href": "https://content.viaplay.se/pc-se/sport",
+        "type": "sportPerDay",
+        "name": "sport"
+      },
+      {
+        "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+        "title": "Barn",
+        "href": "https://content.viaplay.se/pc-se/barn",
+        "type": "vod",
+        "name": "kids"
+      },
+      {
+        "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+        "title": "Store",
+        "href": "https://content.viaplay.se/pc-se/store",
+        "type": "vod",
+        "name": "rental"
+      },
+      {
+        "id": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d",
+        "title": "Prova Viaplay",
+        "href": "https://content.viaplay.se/pc-se/package",
+        "type": "editorial",
+        "name": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d"
+      }
+    ],
+    "viaplay:login": {
+      "title": "Login",
+      "href": "https://login.viaplay.se/api/login/v1?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997{&username,password,persistent,forward}",
+      "templated": true
+    },
+    "viaplay:facebookLogin": {
+      "title": "Facebook Login",
+      "href": "https://login.viaplay.se/api/facebook/login?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997{&code,token,persistent}",
+      "templated": true
+    }
+  },
+  "_embedded": {
+    "viaplay:blocks": [
+      {
+        "client": {
+          "module": "movie",
+          "template": "movie"
+        },
+        "totalProductCount": 1,
+        "type": "product",
+        "styles": [
+          "movie-product",
+          "product"
+        ],
+        "_embedded": {
+          "viaplay:product": {
+            "type": "movie",
+            "publicPath": "titanic-1997",
+            "content": {
+              "duration": {
+                "milliseconds": 11220000,
+                "readable": "3h 7min"
+              },
+              "images": {
+                "boxart": {
+                  "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_cover_GE-1434222861467.jpg?width=199&height=298&token=fecf6a45",
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_cover_GE-1434222861467.jpg{?width,height,token}"
+                },
+                "landscape": {
+                  "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_landscape_GE-1434222861467.jpg?width=960&height=540&token=3ea2aeaa",
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_landscape_GE-1434222861467.jpg{?width,height,token}"
+                },
+                "packshot": {
+                  "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_packshot_GE-1434124830153.jpg?width=960&height=540&token=98f49d91",
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_packshot_GE-1434124830153.jpg{?width,height,token}"
+                },
+                "hero169": {
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_landscape_GE-1434222861467.jpg{?width,height,token}"
+                },
+                "coverart23": {
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_cover_GE-1434222861467.jpg{?width,height,token}"
+                },
+                "coverart169": {
+                  "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/808/440/V05898_packshot_GE-1434124830153.jpg{?width,height,token}"
+                }
+              },
+              "language": {
+                "subtitles": [
+                  {
+                    "languageCode": "no"
+                  },
+                  {
+                    "languageCode": "fi"
+                  },
+                  {
+                    "languageCode": "sv"
+                  },
+                  {
+                    "languageCode": "da"
+                  }
+                ]
+              },
+              "parentalRating": "12",
+              "people": {
+                "actors": [
+                  "Leonardo Dicaprio",
+                  "Kathy Bates",
+                  "Bill Paxton",
+                  "Kate Winslet",
+                  "Frances Fisher",
+                  "Billy Zane",
+                  "Gloria Stuart"
+                ],
+                "directors": [
+                  "James Cameron"
+                ]
+              },
+              "production": {
+                "country": "USA",
+                "year": 1997
+              },
+              "imdb": {
+                "id": "tt0120338",
+                "rating": "7.7",
+                "votes": "779 483",
+                "url": "http://www.imdb.com/title/tt0120338?ref_ext_viaplay"
+              },
+              "synopsis": "Den 10 April 1912 stävar Titanic ut från hamnen i Southhampton på sin jungfruresa. I första klass bor 17-åriga Rose i en skyddad värld, styrd av stränga moralregler och familjens förväntningar. I tredje klass, långt under däck, ligger Jack på sin brits och drömmer det stora äventyret. När ödet låter de två mötas väcks känslor de aldrig tidigare upplevt.",
+              "title": "Titanic"
+            },
+            "user": {
+              "starred": false
+            },
+            "system": {
+              "availability": {
+                "start": "2014-01-01T00:00:00.000Z",
+                "end": "2016-12-31T00:00:00.000Z",
+                "planInfo": {
+                  "isRental": false
+                }
+              },
+              "flags": [
+                "hd",
+                "availableInHd"
+              ],
+              "guid": "V05898",
+              "productId": null,
+              "productKey": "V05898"
+            },
+            "_links": {
+              "self": {
+                "title": "Titanic",
+                "href": "https://content.viaplay.se/pc-se/film/titanic-1997?partial=true&block=1"
+              },
+              "viaplay:page": {
+                "title": "Titanic",
+                "href": "https://content.viaplay.se/pc-se/film/titanic-1997"
+              },
+              "viaplay:templatedPage": {
+                "title": "Titanic",
+                "href": "https://content.viaplay.se/{deviceKey}/film/titanic-1997"
+              },
+              "viaplay:genres": [
+                {
+                  "title": "Drama",
+                  "tagId": "98856440",
+                  "href": "https://content.viaplay.se/pc-se/film/drama"
+                },
+                {
+                  "title": "Romantik",
+                  "tagId": "99368206",
+                  "href": "https://content.viaplay.se/pc-se/film/romantik"
+                }
+              ],
+              "viaplay:stream": {
+                "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=V05898&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                "templated": true
+              },
+              "viaplay:templatedStream": {
+                "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=V05898&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Ftitanic-1997%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                "templated": true
+              },
+              "viaplay:peopleSearch": {
+                "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                "templated": true
+              }
+            },
+            "notice": {
+              "message": "User must login to view content",
+              "code": 1002,
+              "_links": {
+                "curies": [
+                  {
+                    "name": "viaplay",
+                    "href": "http://docs.viaplay.tv/rel/{rel}",
+                    "templated": true
+                  }
+                ],
+                "viaplay:accountPurchasePackage": {
+                  "href": "/package?recommended=viaplay",
+                  "templated": false,
+                  "redirect": false
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "ablocator": "a8abed79-78fe-4189-8507-ebba3d6134e7",
+        "position": 2,
+        "type": "list",
+        "client": {
+          "module": "collection",
+          "template": "collection",
+          "styles": "portrait"
+        },
+        "styles": [
+          "portrait",
+          "list"
+        ],
+        "title": "Liknande filmer",
+        "totalProductCount": 14,
+        "currentPage": 1,
+        "pageCount": 1,
+        "productsPerPage": 14,
+        "_embedded": {
+          "viaplay:products": [
+            {
+              "type": "movie",
+              "publicPath": "the-twilight-saga-new-moon-2009",
+              "content": {
+                "duration": {
+                  "milliseconds": 7500000,
+                  "readable": "2h 5min"
+                },
+                "title": "The Twilight Saga: New Moon",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_cover_GE-1434119708183.jpg?width=199&height=298&token=a55cf1dc",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_cover_GE-1434119708183.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_landscape_GE-1434119708183.jpg?width=960&height=540&token=7df8dbe7",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_landscape_GE-1434119708183.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_packshot_GE-1434119708183.jpg?width=960&height=540&token=1f77eca5",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_packshot_GE-1434119708183.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_landscape_GE-1434119708183.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_cover_GE-1434119708183.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/400/S16310_packshot_GE-1434119708183.jpg{?width,height,token}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Anna Kendrick",
+                    "Billy Burke",
+                    "Kristen Stewart",
+                    "Robert Pattinson",
+                    "Taylor Lautner"
+                  ],
+                  "directors": [
+                    "Chris Weitz"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2009
+                },
+                "parentalRating": "12",
+                "imdb": {
+                  "id": "tt1259571",
+                  "rating": "4.6",
+                  "votes": "218 239",
+                  "url": "http://www.imdb.com/title/tt1259571?ref_ext_viaplay"
+                },
+                "synopsis": "Efter att ha blivit dödligt förälskad i vampyren Edward Cullen, blir Bella Swan helt förkrossad över hans plötsliga försvinnande. Hon blir vän med den oemotståndlige Jacob Black men dras in i en värld av varulvar, vampyrernas dödsfiender, där hennes lojalitet sätts på prov."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-07-04T00:00:00.000Z",
+                  "end": "2017-06-30T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S16310",
+                "productKey": "S16310",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "The Twilight Saga: New Moon",
+                  "href": "https://content.viaplay.se/pc-se/film/the-twilight-saga-new-moon-2009?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "The Twilight Saga: New Moon",
+                  "href": "https://content.viaplay.se/pc-se/film/the-twilight-saga-new-moon-2009"
+                },
+                "viaplay:templatedPage": {
+                  "title": "The Twilight Saga: New Moon",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/the-twilight-saga-new-moon-2009"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Romantik",
+                    "tagId": "99368206",
+                    "href": "https://content.viaplay.se/pc-se/film/romantik"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S16310&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-twilight-saga-new-moon-2009%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S16310&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-twilight-saga-new-moon-2009%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-twilight-saga-new-moon-2009%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "the-twilight-saga-breaking-dawn-part-1-2011",
+              "content": {
+                "duration": {
+                  "milliseconds": 6720000,
+                  "readable": "1h 52min"
+                },
+                "title": "The Twilight Saga: Breaking Dawn - Part 1",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/173/844/S50765_cover_GE-1446547802814.jpg?width=199&height=298&token=ad95d4ae",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/173/844/S50765_cover_GE-1446547802814.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/172/368/S50765_landscape_GE-1446547802814.jpg?width=960&height=540&token=f6d26c77",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/172/368/S50765_landscape_GE-1446547802814.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/785/428/S50765_packshot_GE-1452180006171.jpg?width=960&height=540&token=ec02c006",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/785/428/S50765_packshot_GE-1452180006171.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/172/368/S50765_landscape_GE-1446547802814.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/173/844/S50765_cover_GE-1446547802814.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/785/428/S50765_packshot_GE-1452180006171.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Taylor Lautner",
+                    "Robert Pattinson",
+                    "Kristen Stewart",
+                    "Billy Burke"
+                  ],
+                  "directors": [
+                    "Bill Condon"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2011
+                },
+                "parentalRating": "12",
+                "imdb": {
+                  "id": "tt1324999",
+                  "rating": "4.9",
+                  "votes": "180 290",
+                  "url": "http://www.imdb.com/title/tt1324999?ref_ext_viaplay"
+                },
+                "synopsis": "Bella och Edward, plus alla som de älskar, måste handskas med en rad konsekvenser av deras kärlek, fantastiska bröllop, romantiska smekmånad och den tumultartade födelsen av deras barn - vilket innebär en oförutsedd och chockerande utveckling för Jacob."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-07-04T00:00:00.000Z",
+                  "end": "2017-06-30T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S50765",
+                "productKey": "S50765",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "The Twilight Saga: Breaking Dawn - Part 1",
+                  "href": "https://content.viaplay.se/pc-se/film/the-twilight-saga-breaking-dawn-part-1-2011?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "The Twilight Saga: Breaking Dawn - Part 1",
+                  "href": "https://content.viaplay.se/pc-se/film/the-twilight-saga-breaking-dawn-part-1-2011"
+                },
+                "viaplay:templatedPage": {
+                  "title": "The Twilight Saga: Breaking Dawn - Part 1",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/the-twilight-saga-breaking-dawn-part-1-2011"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Romantik",
+                    "tagId": "99368206",
+                    "href": "https://content.viaplay.se/pc-se/film/romantik"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S50765&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-twilight-saga-breaking-dawn-part-1-2011%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S50765&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-twilight-saga-breaking-dawn-part-1-2011%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-twilight-saga-breaking-dawn-part-1-2011%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "marley-and-me-2008",
+              "content": {
+                "duration": {
+                  "milliseconds": 6900000,
+                  "readable": "1h 55min"
+                },
+                "title": "Marley & Me",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_cover_GE-1434125426924.jpg?width=199&height=298&token=7381d71d",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_cover_GE-1434125426924.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_landscape_GE-1434125426924.jpg?width=960&height=540&token=b0a6633e",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_landscape_GE-1434125426924.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_packshot_GE-1434125426924.jpg?width=960&height=540&token=289f6907",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_packshot_GE-1434125426924.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_landscape_GE-1434125426924.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_cover_GE-1434125426924.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/156/S95832_packshot_GE-1434125426924.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Alan Arkin",
+                    "Owen Wilson",
+                    "Eric Dane",
+                    "Jennifer Aniston",
+                    "Kathleen Turner"
+                  ],
+                  "directors": [
+                    "David Frankel"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2008
+                },
+                "parentalRating": "12",
+                "imdb": {
+                  "id": "tt0822832",
+                  "rating": "7.1",
+                  "votes": "114 931",
+                  "url": "http://www.imdb.com/title/tt0822832?ref_ext_viaplay"
+                },
+                "synopsis": "Det nygifta paret John och Jennifer Grogan går i tankarna att skaffa barn men bestämmer sig för att först skaffa en hund. De fastnar för en söt golden retriever-valp som de döper till Marley. Marley visar sig vara ett riktigt yrväder och han vänder till en början helt upp och ned på deras tillvaro."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-01-24T00:00:00.000Z",
+                  "end": "2017-01-23T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S95832",
+                "productKey": "S95832",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Marley & Me",
+                  "href": "https://content.viaplay.se/pc-se/film/marley-and-me-2008?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Marley & Me",
+                  "href": "https://content.viaplay.se/pc-se/film/marley-and-me-2008"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Marley & Me",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/marley-and-me-2008"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Komedi",
+                    "tagId": "99368193",
+                    "href": "https://content.viaplay.se/pc-se/film/komedi"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S95832&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fmarley-and-me-2008%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S95832&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fmarley-and-me-2008%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fmarley-and-me-2008%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "the-impossible-2012",
+              "content": {
+                "duration": {
+                  "milliseconds": 6540000,
+                  "readable": "1h 49min"
+                },
+                "title": "The Impossible",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_cover_GE-1456412582674.jpg?width=199&height=298&token=ff4da0c5",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_cover_GE-1456412582674.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_landscape_GE-1456412582674.jpg?width=960&height=540&token=3ec747b1",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_landscape_GE-1456412582674.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/543/432/S79395_packshot_GE-1456412582674.jpg?width=960&height=540&token=55480502",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/543/432/S79395_packshot_GE-1456412582674.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_landscape_GE-1456412582674.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/S79395_cover_GE-1456412582674.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/543/432/S79395_packshot_GE-1456412582674.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Naomi Watts",
+                    "Marta Etura",
+                    "Tom Holland",
+                    "Ewan McGregor"
+                  ],
+                  "directors": [
+                    "Juan Antonio Bayona"
+                  ]
+                },
+                "production": {
+                  "country": "Spanien",
+                  "year": 2012
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt1649419",
+                  "rating": "7.6",
+                  "votes": "143 153",
+                  "url": "http://www.imdb.com/title/tt1649419?ref_ext_viaplay"
+                },
+                "synopsis": "Maria, Henry och deras tre söner är på semester i det tropiska Thailand. När familjen njuter av solen vid poolen slits paradiset i bitar av den enorma våg som drar med sig allt i dess väg och splittrar familjen."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-07-27T00:00:00.000Z",
+                  "end": "2017-06-30T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S79395",
+                "productKey": "S79395",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "The Impossible",
+                  "href": "https://content.viaplay.se/pc-se/film/the-impossible-2012?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "The Impossible",
+                  "href": "https://content.viaplay.se/pc-se/film/the-impossible-2012"
+                },
+                "viaplay:templatedPage": {
+                  "title": "The Impossible",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/the-impossible-2012"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Thriller",
+                    "tagId": "99368200",
+                    "href": "https://content.viaplay.se/pc-se/film/thriller"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S79395&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-impossible-2012%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S79395&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-impossible-2012%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-impossible-2012%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "the-captive-2014",
+              "content": {
+                "duration": {
+                  "milliseconds": 6420000,
+                  "readable": "1h 47min"
+                },
+                "title": "The Captive",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_cover_GE-1434119740354.jpg?width=199&height=298&token=e82c98ff",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_cover_GE-1434119740354.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_landscape_GE-1434119740354.jpg?width=960&height=540&token=f3ccde59",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_landscape_GE-1434119740354.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_packshot_GE-1434119740354.jpg?width=960&height=540&token=4b8598a3",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_packshot_GE-1434119740354.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_landscape_GE-1434119740354.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_cover_GE-1434119740354.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/768/900/V51706_packshot_GE-1434119740354.jpg{?width,height,token}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Alexia Fast",
+                    "Scott Speedman",
+                    "Rosario Dawson",
+                    "Kevin Durand",
+                    "Ryan Reynolds"
+                  ],
+                  "directors": [
+                    "Atom Egoyan"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2014
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt2326612",
+                  "rating": "5.9",
+                  "votes": "18 152",
+                  "url": "http://www.imdb.com/title/tt2326612?ref_ext_viaplay"
+                },
+                "synopsis": "Tio år efter att Cassandra kidnappades och försvann spårlöst börjar nya spår plötsligt dyka upp på internet. Två poliser tar sig an fallet - och öppnar utredningen som varit nedlagd i flera år, bara för att finna sig indragna i en sorgedränkt berättelse där parallellhistorier ständigt ger nya nyanser åt en kylig brottsutredning."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2015-11-01T00:00:00.000Z",
+                  "end": "2017-01-31T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "V51706",
+                "productKey": "V51706",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "The Captive",
+                  "href": "https://content.viaplay.se/pc-se/film/the-captive-2014?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "The Captive",
+                  "href": "https://content.viaplay.se/pc-se/film/the-captive-2014"
+                },
+                "viaplay:templatedPage": {
+                  "title": "The Captive",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/the-captive-2014"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Kriminaldrama",
+                    "tagId": "99368197"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=V51706&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-captive-2014%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=V51706&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-captive-2014%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-captive-2014%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "kyrkogardson-2004",
+              "content": {
+                "duration": {
+                  "milliseconds": 5520000,
+                  "readable": "1h 32min"
+                },
+                "title": "Kyrkogårdsön",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_cover_GE-1434121805019.jpg?width=199&height=298&token=380b72a3",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_cover_GE-1434121805019.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_landscape_GE-1434121805019.jpg?width=960&height=540&token=bdc3cf30",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_landscape_GE-1434121805019.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_packshot_GE-1434121805019.jpg?width=960&height=540&token=4ec4722d",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_packshot_GE-1434121805019.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_landscape_GE-1434121805019.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_cover_GE-1434121805019.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/783/540/S28095_packshot_GE-1434121805019.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Kasper Lindström",
+                    "Helena Jacobsson",
+                    "Jim Ramel",
+                    "Daniel Möllberg"
+                  ],
+                  "directors": [
+                    "Martin Forsström"
+                  ]
+                },
+                "production": {
+                  "country": "Sverige",
+                  "year": 2004
+                },
+                "parentalRating": "PG",
+                "imdb": {
+                  "id": "tt0388192",
+                  "rating": "4.4",
+                  "votes": "169",
+                  "url": "http://www.imdb.com/title/tt0388192?ref_ext_viaplay"
+                },
+                "synopsis": "Året är 1985 och den 14-åriga Henrik, bröderna Erik och Kristian, samt deras kusin Oskar har sommarlov och befinner sig på Siarö i Stockholms skärgård."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2011-02-28T23:00:00.000Z",
+                  "end": "2016-12-30T23:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "sd"
+                ],
+                "guid": "S28095",
+                "productKey": "S28095",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Kyrkogårdsön",
+                  "href": "https://content.viaplay.se/pc-se/film/kyrkogardson-2004?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Kyrkogårdsön",
+                  "href": "https://content.viaplay.se/pc-se/film/kyrkogardson-2004"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Kyrkogårdsön",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/kyrkogardson-2004"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Nordisk",
+                    "tagId": "99368215",
+                    "href": "https://content.viaplay.se/pc-se/film/nordisk"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S28095&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fkyrkogardson-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S28095&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fkyrkogardson-2004%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fkyrkogardson-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "mean-creek-2004",
+              "content": {
+                "duration": {
+                  "milliseconds": 5100000,
+                  "readable": "1h 25min"
+                },
+                "title": "Mean Creek",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_cover_GE-1434121505975.jpg?width=199&height=298&token=50abb6cb",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_cover_GE-1434121505975.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_landscape_GE-1434121505975.jpg?width=960&height=540&token=cbcd1584",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_landscape_GE-1434121505975.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_packshot_GE-1434121505975.jpg?width=960&height=540&token=df351f4e",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_packshot_GE-1434121505975.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_landscape_GE-1434121505975.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_cover_GE-1434121505975.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/786/968/S28101_packshot_GE-1434121505975.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    },
+                    {
+                      "languageCode": "da"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Carly Schroeder",
+                    "Josh Peck",
+                    "Trevor Morgan",
+                    "Scott Mechlowicz",
+                    "Rory Culkin",
+                    "Ryan Kelley"
+                  ],
+                  "directors": [
+                    "Jacob Aaron"
+                  ]
+                },
+                "production": {
+                  "country": "Sverige",
+                  "year": 2004
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt0377091",
+                  "rating": "7.3",
+                  "votes": "25 972",
+                  "url": "http://www.imdb.com/title/tt0377091?ref_ext_viaplay"
+                },
+                "synopsis": "När den beskyddande storebrodern Rocky får veta att hans lillebror Sam blir mobbad i skolan blir han minst sagt förbannad."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2011-02-28T23:00:00.000Z",
+                  "end": "2016-12-30T23:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "sd"
+                ],
+                "guid": "S28101",
+                "productKey": "S28101",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Mean Creek",
+                  "href": "https://content.viaplay.se/pc-se/film/mean-creek-2004?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Mean Creek",
+                  "href": "https://content.viaplay.se/pc-se/film/mean-creek-2004"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Mean Creek",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/mean-creek-2004"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S28101&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fmean-creek-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S28101&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fmean-creek-2004%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fmean-creek-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "while-were-young-2014",
+              "content": {
+                "duration": {
+                  "milliseconds": 5820000,
+                  "readable": "1h 37min"
+                },
+                "title": "While We're Young",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/515/756/20234424_cover_GE-1453982413111.jpg?width=199&height=298&token=bcbcdf8c",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/515/756/20234424_cover_GE-1453982413111.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/517/708/20234424_landscape_GE-1453982413111.jpg?width=960&height=540&token=6f6a7f84",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/517/708/20234424_landscape_GE-1453982413111.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/495/236/20234424_packshot_GE-1453981807434.jpg?width=960&height=540&token=5dd54fd9",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/495/236/20234424_packshot_GE-1453981807434.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/517/708/20234424_landscape_GE-1453982413111.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/515/756/20234424_cover_GE-1453982413111.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/495/236/20234424_packshot_GE-1453981807434.jpg{?width,height,token}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Maria Dizzia",
+                    "Ben Stiller",
+                    "Naomi Watts",
+                    "Adam Driver",
+                    "Amanda Seyfried"
+                  ],
+                  "directors": [
+                    "Noah Baumbach"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2014
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt1791682",
+                  "rating": "6.3",
+                  "votes": "28 886",
+                  "url": "http://www.imdb.com/title/tt1791682?ref_ext_viaplay"
+                },
+                "synopsis": "Josh och Cornelia är ett urbant 40-årskrisande par i New York som försökt skaffa barn, men inte lyckats och har bestämt sig för att vara nöjda med det. När de lär känna två unga hipsters, Jamie och Darby, överger de snabbt sina jämnåriga vänner som startat familj och slagit sig till ro. De låter sig istället fyllas av Jamies och Darbys hämningslösa spontanitet och äventyrslust."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-02-04T00:00:00.000Z",
+                  "end": "2017-04-30T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "20234424",
+                "productKey": "20234424",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "While We're Young",
+                  "href": "https://content.viaplay.se/pc-se/film/while-were-young-2014?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "While We're Young",
+                  "href": "https://content.viaplay.se/pc-se/film/while-were-young-2014"
+                },
+                "viaplay:templatedPage": {
+                  "title": "While We're Young",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/while-were-young-2014"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Komedi",
+                    "tagId": "99368193",
+                    "href": "https://content.viaplay.se/pc-se/film/komedi"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=20234424&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fwhile-were-young-2014%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=20234424&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fwhile-were-young-2014%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fwhile-were-young-2014%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "allt-eller-inget-1997",
+              "content": {
+                "duration": {
+                  "milliseconds": 5460000,
+                  "readable": "1h 31min"
+                },
+                "title": "Allt eller inget",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_cover_GE-1453390808524.jpg?width=199&height=298&token=decf25a6",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_cover_GE-1453390808524.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_landscape_GE-1453390808524.jpg?width=960&height=540&token=3dbb75db",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_landscape_GE-1453390808524.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_packshot_GE-1453390808524.jpg?width=960&height=540&token=558bef63",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_packshot_GE-1453390808524.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_landscape_GE-1453390808524.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_cover_GE-1453390808524.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/77/768/S92799_packshot_GE-1453390808524.jpg{?width,height,token}"
+                  }
+                },
+                "people": {
+                  "actors": [
+                    "Mark Addy",
+                    "Steve Huison",
+                    "William Snape",
+                    "Robert Carlyle",
+                    "Tom Wilkinson"
+                  ],
+                  "directors": [
+                    "Peter Cattaneo"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 1997
+                },
+                "parentalRating": "PG",
+                "imdb": {
+                  "id": "tt0119164",
+                  "rating": "7.2",
+                  "votes": "81 344",
+                  "url": "http://www.imdb.com/title/tt0119164?ref_ext_viaplay"
+                },
+                "synopsis": "Gaz och Dave är arbetslösa sedan stålverket lades ned. När Chippendales gästspelar i stan får Gaz höra hur mycket de drar in på en kväll och kommer på idén att han och hans vänner ska strippa."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-02-15T00:00:00.000Z",
+                  "end": "2017-01-31T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S92799",
+                "productKey": "S92799",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Allt eller inget",
+                  "href": "https://content.viaplay.se/pc-se/film/allt-eller-inget-1997?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Allt eller inget",
+                  "href": "https://content.viaplay.se/pc-se/film/allt-eller-inget-1997"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Allt eller inget",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/allt-eller-inget-1997"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Komedi",
+                    "tagId": "99368193",
+                    "href": "https://content.viaplay.se/pc-se/film/komedi"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S92799&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fallt-eller-inget-1997%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S92799&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fallt-eller-inget-1997%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fallt-eller-inget-1997%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "open-water-2-adrift-2006",
+              "content": {
+                "duration": {
+                  "milliseconds": 5640000,
+                  "readable": "1h 34min"
+                },
+                "title": "Open Water 2: Adrift",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_cover_GE-1434125408555.jpg?width=199&height=298&token=870a77b6",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_cover_GE-1434125408555.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_landscape_GE-1434125408555.jpg?width=960&height=540&token=18630289",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_landscape_GE-1434125408555.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_packshot_GE-1434125408555.jpg?width=960&height=540&token=c39a9e0e",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_packshot_GE-1434125408555.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_landscape_GE-1434125408555.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_cover_GE-1434125408555.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/799/656/S28138_packshot_GE-1434125408555.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    },
+                    {
+                      "languageCode": "da"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Susan May",
+                    "Richard Speight",
+                    "Niklaus Lange"
+                  ],
+                  "directors": [
+                    "Hans Horn"
+                  ]
+                },
+                "production": {
+                  "country": "Tyskland",
+                  "year": 2006
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt0470055",
+                  "rating": "5.1",
+                  "votes": "13 091",
+                  "url": "http://www.imdb.com/title/tt0470055?ref_ext_viaplay"
+                },
+                "synopsis": "En avslappnande kryssning ombord på en lyxjakt en bit utanför Mexikos kust utvecklas till en levande mardröm för de sex vännerna, när ingen tänker på att fälla ner badstegen innan de hoppar i vattnet."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2013-12-31T23:00:00.000Z",
+                  "end": "2016-12-31T22:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "sd"
+                ],
+                "guid": "S28138",
+                "productKey": "S28138",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Open Water 2: Adrift",
+                  "href": "https://content.viaplay.se/pc-se/film/open-water-2-adrift-2006?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Open Water 2: Adrift",
+                  "href": "https://content.viaplay.se/pc-se/film/open-water-2-adrift-2006"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Open Water 2: Adrift",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/open-water-2-adrift-2006"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Thriller",
+                    "tagId": "99368200",
+                    "href": "https://content.viaplay.se/pc-se/film/thriller"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S28138&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fopen-water-2-adrift-2006%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S28138&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fopen-water-2-adrift-2006%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fopen-water-2-adrift-2006%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "just-my-luck-2006",
+              "content": {
+                "duration": {
+                  "milliseconds": 6180000,
+                  "readable": "1h 43min"
+                },
+                "title": "Just My Luck",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_cover_GE-1434125122080.jpg?width=199&height=298&token=92839f4e",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_cover_GE-1434125122080.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_landscape_GE-1452606005979.jpg?width=960&height=540&token=08f06579",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_landscape_GE-1452606005979.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_packshot_GE-1434125122080.jpg?width=960&height=540&token=ee6bb62d",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_packshot_GE-1434125122080.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_landscape_GE-1452606005979.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_cover_GE-1434125122080.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/795/752/S95829_packshot_GE-1434125122080.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Faizon Love",
+                    "Chris Pine",
+                    "Lindsay Lohan",
+                    "Missi Pyle",
+                    "Samaire Armstrong"
+                  ],
+                  "directors": [
+                    "Donald Petrie"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2006
+                },
+                "parentalRating": "PG",
+                "imdb": {
+                  "id": "tt0397078",
+                  "rating": "5.3",
+                  "votes": "43 448",
+                  "url": "http://www.imdb.com/title/tt0397078?ref_ext_viaplay"
+                },
+                "synopsis": "Ashley, från societén på Manhattan, är New Yorks lyckligaste människa tills en natt när hon går på maskerad och möter Jake. Jake har tvärtom extrem otur. Efter att ha kysst honom upptäcker Ashley till sin fasa att hon har bytt sin tur mot Jakes otur."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-01-24T00:00:00.000Z",
+                  "end": "2017-01-23T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "S95829",
+                "productKey": "S95829",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Just My Luck",
+                  "href": "https://content.viaplay.se/pc-se/film/just-my-luck-2006?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Just My Luck",
+                  "href": "https://content.viaplay.se/pc-se/film/just-my-luck-2006"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Just My Luck",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/just-my-luck-2006"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Komedi",
+                    "tagId": "99368193",
+                    "href": "https://content.viaplay.se/pc-se/film/komedi"
+                  },
+                  {
+                    "title": "Romantik",
+                    "tagId": "99368206",
+                    "href": "https://content.viaplay.se/pc-se/film/romantik"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S95829&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fjust-my-luck-2006%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S95829&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fjust-my-luck-2006%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fjust-my-luck-2006%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "hotel-rwanda-2004",
+              "content": {
+                "duration": {
+                  "milliseconds": 7020000,
+                  "readable": "1h 57min"
+                },
+                "title": "Hotel Rwanda",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_cover_GE-1434124536719.jpg?width=199&height=298&token=63497866",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_cover_GE-1434124536719.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_landscape_GE-1434124536719.jpg?width=960&height=540&token=701df485",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_landscape_GE-1434124536719.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_packshot_GE-1434124536719.jpg?width=960&height=540&token=c83b4037",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_packshot_GE-1434124536719.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_landscape_GE-1434124536719.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_cover_GE-1434124536719.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/807/964/V03667_packshot_GE-1434124536719.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    },
+                    {
+                      "languageCode": "no"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Sophie Okonedo",
+                    "Desmond Dube",
+                    "Antonio David Lyons",
+                    "Joaquin Phoenix",
+                    "Nick Nolte",
+                    "Don Cheadle"
+                  ],
+                  "directors": [
+                    "Terry George"
+                  ]
+                },
+                "production": {
+                  "country": "Sydafrika",
+                  "year": 2004
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt0395169",
+                  "rating": "8.1",
+                  "votes": "260 063",
+                  "url": "http://www.imdb.com/title/tt0395169?ref_ext_viaplay"
+                },
+                "synopsis": "Verklighetsbaserad film om det brutala folkmordet som skedde i Rwanda 1994. På bara tre månader mördades nästan en miljon människor under de mest fasansfulla omständigheterna. Hotelldirektören Paul Rusesabagina lyckades dock rädda 1268 flyktingar från en säker död. Det här är hans historia."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2014-01-01T00:00:00.000Z",
+                  "end": "2016-12-31T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "availableInHd"
+                ],
+                "guid": "V03667",
+                "productKey": "V03667",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Hotel Rwanda",
+                  "href": "https://content.viaplay.se/pc-se/film/hotel-rwanda-2004?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Hotel Rwanda",
+                  "href": "https://content.viaplay.se/pc-se/film/hotel-rwanda-2004"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Hotel Rwanda",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/hotel-rwanda-2004"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=V03667&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fhotel-rwanda-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=V03667&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fhotel-rwanda-2004%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fhotel-rwanda-2004%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "the-three-burials-of-melquiades-estrada-2005",
+              "content": {
+                "duration": {
+                  "milliseconds": 7260000,
+                  "readable": "2h 1min"
+                },
+                "title": "The Three Burials of Melquiades Estrada",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_cover_GE-1434123620646.jpg?width=199&height=298&token=fc19c304",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_cover_GE-1434123620646.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_landscape_GE-1434123620646.jpg?width=960&height=540&token=b2e04b8b",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_landscape_GE-1434123620646.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_packshot_GE-1434123620646.jpg?width=960&height=540&token=1a6fe123",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_packshot_GE-1434123620646.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_landscape_GE-1434123620646.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_cover_GE-1434123620646.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/806/488/V03767_packshot_GE-1434123620646.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "da"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Tommy Lee",
+                    "Julio Cedillo",
+                    "Barry Pepper",
+                    "Melissa Leo"
+                  ],
+                  "directors": [
+                    "Tommy Lee"
+                  ]
+                },
+                "production": {
+                  "country": "Frankrike, USA",
+                  "year": 2005
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt0419294",
+                  "rating": "7.5",
+                  "votes": "33 899",
+                  "url": "http://www.imdb.com/title/tt0419294?ref_ext_viaplay"
+                },
+                "synopsis": "Pete Perkins är en ärrad gammal kofösare som jobbar som förman på en ranch i Texas nära den mexikanska gränsen."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2013-12-31T22:00:00.000Z",
+                  "end": "2016-12-31T22:59:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "sd"
+                ],
+                "guid": "V03767",
+                "productKey": "V03767",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "The Three Burials of Melquiades Estrada",
+                  "href": "https://content.viaplay.se/pc-se/film/the-three-burials-of-melquiades-estrada-2005?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "The Three Burials of Melquiades Estrada",
+                  "href": "https://content.viaplay.se/pc-se/film/the-three-burials-of-melquiades-estrada-2005"
+                },
+                "viaplay:templatedPage": {
+                  "title": "The Three Burials of Melquiades Estrada",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/the-three-burials-of-melquiades-estrada-2005"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=V03767&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-three-burials-of-melquiades-estrada-2005%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=V03767&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fthe-three-burials-of-melquiades-estrada-2005%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fthe-three-burials-of-melquiades-estrada-2005%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "movie",
+              "publicPath": "panic-room-2002",
+              "content": {
+                "duration": {
+                  "milliseconds": 6720000,
+                  "readable": "1h 52min"
+                },
+                "title": "Panic Room",
+                "images": {
+                  "boxart": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_cover_GE-1434122712441.jpg?width=199&height=298&token=40f6228c",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_cover_GE-1434122712441.jpg{?width,height,token}"
+                  },
+                  "landscape": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_landscape_GE-1434122712441.jpg?width=960&height=540&token=e31f93c4",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_landscape_GE-1434122712441.jpg{?width,height,token}"
+                  },
+                  "packshot": {
+                    "url": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_packshot_GE-1434122712441.jpg?width=960&height=540&token=643c5cad",
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_packshot_GE-1434122712441.jpg{?width,height,token}"
+                  },
+                  "hero169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_landscape_GE-1434122712441.jpg{?width,height,token}"
+                  },
+                  "coverart23": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_cover_GE-1434122712441.jpg{?width,height,token}"
+                  },
+                  "coverart169": {
+                    "template": "https://i-viaplay-com.akamaized.net/scandi/Viaplay_Prod_-_Scandi/790/872/S83763_packshot_GE-1434122712441.jpg{?width,height,token}"
+                  }
+                },
+                "language": {
+                  "subtitles": [
+                    {
+                      "languageCode": "no"
+                    },
+                    {
+                      "languageCode": "fi"
+                    },
+                    {
+                      "languageCode": "sv"
+                    },
+                    {
+                      "languageCode": "da"
+                    }
+                  ]
+                },
+                "people": {
+                  "actors": [
+                    "Forest Whitaker",
+                    "Ann Magnuson",
+                    "Jodie Foster",
+                    "Kristen Stewart",
+                    "Dwight Yoakam"
+                  ],
+                  "directors": [
+                    "David Fincher"
+                  ]
+                },
+                "production": {
+                  "country": "USA",
+                  "year": 2002
+                },
+                "parentalRating": "15",
+                "imdb": {
+                  "id": "tt0258000",
+                  "rating": "6.8",
+                  "votes": "203 227",
+                  "url": "http://www.imdb.com/title/tt0258000?ref_ext_viaplay"
+                },
+                "synopsis": "Frånskilda Meg flyttar med sin sockersjuka dotter in i ett hus som tidigare tillhört en stenrik ensling. I huset finns ett märkligt 'säkert' rum beklätt med solida stålväggar. När tre brutala tjuvar bryter sig in på jakt efter den gamle rikemannens miljoner flyr Meg och Sarah in i rummet. Tyvärr befinner sig det som tjuvarna vill åt också inne i rummet."
+              },
+              "user": {
+                "starred": false
+              },
+              "system": {
+                "availability": {
+                  "start": "2016-04-26T00:00:00.000Z",
+                  "end": "2017-04-01T00:00:00.000Z",
+                  "planInfo": {
+                    "isRental": false
+                  }
+                },
+                "flags": [
+                  "hd",
+                  "drm",
+                  "availableInHd"
+                ],
+                "guid": "S83763",
+                "productKey": "S83763",
+                "isKids": false
+              },
+              "_links": {
+                "self": {
+                  "title": "Panic Room",
+                  "href": "https://content.viaplay.se/pc-se/film/panic-room-2002?partial=true&block=1"
+                },
+                "viaplay:page": {
+                  "title": "Panic Room",
+                  "href": "https://content.viaplay.se/pc-se/film/panic-room-2002"
+                },
+                "viaplay:templatedPage": {
+                  "title": "Panic Room",
+                  "href": "https://content.viaplay.se/{deviceKey}/film/panic-room-2002"
+                },
+                "viaplay:genres": [
+                  {
+                    "title": "Drama",
+                    "tagId": "98856440",
+                    "href": "https://content.viaplay.se/pc-se/film/drama"
+                  },
+                  {
+                    "title": "Thriller",
+                    "tagId": "99368200",
+                    "href": "https://content.viaplay.se/pc-se/film/thriller"
+                  }
+                ],
+                "viaplay:peopleSearch": {
+                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                  "templated": true
+                },
+                "viaplay:stream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent}&deviceKey=pc-se&guid=S83763&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fpanic-room-2002%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                },
+                "viaplay:templatedStream": {
+                  "href": "https://play.viaplay.se/api/stream/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey}&guid=S83763&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Ftitanic-1997&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Fpanic-room-2002%3Fpartial%3Dtrue%26block%3D1&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Ffilm%2Fpanic-room-2002%3Fpartial%3Dtrue%26block%3D1&sectionPath=%2Ffilm",
+                  "templated": true
+                }
+              },
+              "notice": {
+                "message": "User must login to view content",
+                "code": 1002,
+                "_links": {
+                  "curies": [
+                    {
+                      "name": "viaplay",
+                      "href": "http://docs.viaplay.tv/rel/{rel}",
+                      "templated": true
+                    }
+                  ],
+                  "viaplay:accountPurchasePackage": {
+                    "href": "/package?recommended=viaplay",
+                    "templated": false,
+                    "redirect": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "href": "https://content.viaplay.se/pc-se/film/titanic-1997?block=2&partial=1&pageNumber=1"
+          }
+        }
+      }
+    ]
+  },
+  "responseCode": {
+    "httpStatus": 200,
+    "statusCode": 200,
+    "code": 1
+  }
+}

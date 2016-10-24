@@ -22,11 +22,11 @@ const AUTOPREFIXER_BROWSERS = [
   'Explorer >= 9',
   'iOS >= 7',
   'Opera >= 12',
-  'Safari >= 7.1',
+  'Safari >= 7.1'
 ];
 const GLOBALS = {
   'process.env.NODE_ENV': DEBUG ? '"development"' : '"production"',
-  __DEV__: DEBUG,
+  __DEV__: DEBUG
 };
 
 //
@@ -37,7 +37,7 @@ const GLOBALS = {
 const config = {
   output: {
     publicPath: '/',
-    sourcePrefix: '  ',
+    sourcePrefix: '  '
   },
 
   cache: DEBUG,

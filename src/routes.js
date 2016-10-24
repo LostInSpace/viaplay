@@ -7,40 +7,43 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React from 'react';
-import Router from 'react-routing/src/Router';
-import fetch from './core/fetch';
-import App from './components/App';
-import ContentPage from './components/ContentPage';
-import ContactPage from './components/ContactPage';
-import LoginPage from './components/LoginPage';
-import RegisterPage from './components/RegisterPage';
-import NotFoundPage from './components/NotFoundPage';
-import ErrorPage from './components/ErrorPage';
+import React from "react";
+import Router from "react-routing/src/Router";
+import pageRouter from "./pageRouter";
+import fetch from "./core/fetch";
+import api from "./core/api";
+
 
 const router = new Router(on => {
-  on('*', async (state, next) => {
-    const component = await next();
-    return component && <Viaplay context={state.context}>{component}</Viaplay>;
-  });
+    on('*', async(state) => {
+        let path = state.path;
+        console.log(path);
+        const query = api.getUrl(path);
+        console.log(query);
+        const response = await fetch(query);
+        const data = await response.json();
+        console.log(JSON.stringify(data));
 
-  on('/contact', async () => <ContactPage />);
-
-  on('/login', async () => <LoginPage />);
-
-  on('/register', async () => <RegisterPage />);
-
-  on('*', async (state) => {
-    const query = `/graphql?query={content(path:"${state.path}"){path,title,content,component}}`;
-    const response = await fetch(query);
-    const { data } = await response.json();
-    return data && data.content && <ContentPage {...data.content} />;
-  });
-
-  on('error', (state, error) => state.statusCode === 404 ?
-    <App context={state.context} error={error}><NotFoundPage /></App> :
-    <App context={state.context} error={error}><ErrorPage /></App>
-  );
+        if (data && data.responseCode && data.responseCode.httpStatus === 200) {
+            state.context.data = data;
+            let pageState = {
+                path: data.pageType || 'root',
+                context: state.context
+            };
+            let pageComponent;
+            await pageRouter.dispatch(pageState,  (state, component) => {
+                pageComponent = component;
+            });
+            return pageComponent;
+        } else {
+            let redirectComponent;
+            state.path = api.getRedirectUrl(data.redirectPath);
+            await router.dispatch(state,  (state, component) => {
+                redirectComponent = component;
+            });
+            return redirectComponent;
+        }
+    });
 });
 
 export default router;
