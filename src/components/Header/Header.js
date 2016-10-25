@@ -18,7 +18,6 @@ class Header extends Component {
     context: PropTypes.object.isRequired,
   };
 
-
   render() {
     return (
       <div className={s.root}>
