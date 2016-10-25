@@ -18,11 +18,20 @@
  * ========================================================================== */
 
 html {
-  color: #222;
+  color: $gray-darker;
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: $font-family-base;
   line-height: 1.375; /* ~22px */
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /*

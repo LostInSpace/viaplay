@@ -14,20 +14,15 @@ import s from './Section.scss';
 class Section extends Component {
 
   static propTypes = {
-    context: PropTypes.string.isRequired,
-  };
-
-  static contextTypes = {
-    onSetTitle: PropTypes.func.isRequired,
+    context: PropTypes.object.isRequired,
   };
 
   render() {
-    this.context.onSetTitle(this.props.title);
     return (
       <div className={s.root}>
         <div className={s.container}>
-          {this.props.path === '/' ? null : <h1>{this.props.title}</h1>}
-          <div dangerouslySetInnerHTML={{ __html: this.props.content || '' }} />
+          <h1>{this.props.context.data.title}</h1>
+          <h2>{this.props.context.data.description}</h2>
         </div>
       </div>
     );

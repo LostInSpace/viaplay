@@ -12,5 +12,8 @@
 
 export const port = process.env.PORT || 3000;
 export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
+export const movieDbApiKey = "7ce8a2e31f04d1b6490838c1094e3392";
 export const api = 'https://content.viaplay.se';
 export const prefix = '/pc-se';
+export const lang = "sv";
+export const defaultLang = "en";

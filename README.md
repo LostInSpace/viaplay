@@ -1,51 +1,56 @@
-## React Starter Kit — "isomorphic" web app boilerplate
+# Viaplay test assignment
 
-[![Support us on Bountysource](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/banner.png)](https://salt.bountysource.com/teams/react-starter-kit)<br>
+## Author
 
-> [React Starter Kit](https://www.reactstarterkit.com) is an opinionated
-> boilerplate for web development built on top of Facebook's
-> [React](https://facebook.github.io/react/) library,
-> [Node.js](https://nodejs.org/) / [Express](http://expressjs.com/) server
-> and [Flux](http://facebook.github.io/flux/) architecture. Containing
-> modern web development tools such as [Webpack](http://webpack.github.io/),
-> [Babel](http://babeljs.io/) and [BrowserSync](http://www.browsersync.io/).
-> Helping you to stay productive following the best practices. A solid starting
-> point for both professionals and newcomers to the industry.
+The test assignmetn has been completed by Mykhailo Matiiasevych (michael@inspace.org.ua)
 
-See [demo](http://demo.reactstarterkit.com) &nbsp;|&nbsp;
-[docs](https://github.com/kriasoft/react-starter-kit/tree/master/docs) &nbsp;|&nbsp;
-[to-do list](https://waffle.io/kriasoft/react-starter-kit) &nbsp;|&nbsp;
-join [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) chatroom to stay up to date &nbsp;|&nbsp;
-visit our sponsors:
+## Release notes
 
-[![Rollbar - Full-stack error tracking for all apps in any language](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/rollbar.png)](https://rollbar.com/?utm_source=reactstartkit(github)&utm_medium=link&utm_campaign=reactstartkit(github)) &nbsp;&nbsp;
-[![Localize - Translate your web app in minutes](https://dl.dropboxusercontent.com/u/16006521/react-starter-kit/localize.png)](https://localizejs.com/?cid=802&utm_source=rsk)
+The application provides movie details page with playable trailer (if applicable). Movie data is fetched from the [API](https://content.viaplay.se)
 
-### Getting Started
+## How to run
 
-  * Follow the [getting started guide](./docs/getting-started.md) to download and run the project
-  * Check the [code recipes](./docs/recipes) used in this boilerplate, or share yours
+```
+git clone https://github.com/LostInSpace/viaplay.git
+npm install
+npm start
+```
 
+Application will be available on
+ 
+ - (http://localhost:3000) Server side version
+ - (http://localhost:3001) BrowserSync proxy with HMR, React Hot Transform 
+ 
+## Description
+ 
+  I've decide to use [React Starter Kit](https://www.reactstarterkit.com/) as a template project, so some implementation comes from it directly.
+  The Assignment is done as server side (Node.js) application. Reasons:
+  
+  - Sending api keys to client may cause security issues.
+  - API responses too big and bloated with unnecessary information, better to parse them on server.
+  
+  Server side solution make React application easier, because there is no reason to use FLUX, so that application is stateless and scalable without any issues. 
+    
+  There are dummy implementations of other pages, like Category, Section and Root that may be extended to achieve full functional application.
+  
+  Product page receives data from Content API, then search movieDB for available trailers and include it on the page if available. All trailers served by YouTube.
+  Top menu is building using API response.
+  Navigation URLs the same as for Content API, except 'pc-se' part.
+  
 ### Directory Layout
 
 ```
 .
 ├── /build/                     # The folder for compiled output
-├── /docs/                      # Documentation files for the project
 ├── /node_modules/              # 3rd-party libraries and utilities
 ├── /src/                       # The source code of the application
-│   ├── /actions/               # Action creators that allow to trigger a dispatch to stores
 │   ├── /components/            # React components
-│   ├── /constants/             # Constants (action types etc.)
-│   ├── /content/               # Static content (plain HTML or Markdown, Jade, you name it)
 │   ├── /core/                  # Core framework and utility functions
-│   ├── /data/                  # GraphQL server schema
-│   ├── /decorators/            # Higher-order React components
 │   ├── /public/                # Static files which are copied into the /build/public folder
-│   ├── /stores/                # Stores contain the application state and logic
 │   ├── /views/                 # Express.js views for index and error pages
 │   ├── /client.js              # Client-side startup script
 │   ├── /config.js              # Global application settings
+│   ├── /pageRouter.js          # Router implementation for detecting component
 │   ├── /routes.js              # Universal (isomorphic) application routes
 │   └── /server.js              # Server-side startup script
 ├── /tools/                     # Build automation scripts and utilities
@@ -63,38 +68,8 @@ visit our sponsors:
 └── preprocessor.js             # ES6 transpiler settings for Jest
 ```
 
-### Related Projects
+## Things NOT done
 
-  * [Membership Database](https://github.com/membership/membership.db) — SQL schema boilerplate for user accounts, profiles, roles, and auth claims
-  * [React Static Boilerplate](https://github.com/koistya/react-static-boilerplate) — Generates static websites from React components
-  * [Babel Starter Kit](https://github.com/kriasoft/babel-starter-kit) — Boilerplate for authoring JavaScript/React.js libraries
-
-### Learn More
-
-  * [Getting Started with React.js](http://facebook.github.io/react/)
-  * [Getting Started with GraphQL and Relay](https://quip.com/oLxzA1gTsJsE)
-  * [React.js Questions on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-  * [React.js Discussion Board](https://discuss.reactjs.org/)
-  * [Flux Architecture for Building User Interfaces](http://facebook.github.io/flux/)
-  * [Jest - Painless Unit Testing](http://facebook.github.io/jest/)
-  * [Flow - A static type checker for JavaScript](http://flowtype.org/)
-  * [The Future of React](https://github.com/reactjs/react-future)
-  * [Learn ES6](https://babeljs.io/docs/learn-es6/), [ES6 Features](https://github.com/lukehoban/es6features#readme)
-
-### Support
-
-  * [#react-starter-kit](http://stackoverflow.com/questions/tagged/react-starter-kit) on Stack Overflow — Questions and answers
-  * [#react-starter-kit](https://gitter.im/kriasoft/react-starter-kit) on Gitter — Watch announcements, share ideas and feedback
-  * [GitHub issues](https://github.com/kriasoft/react-starter-kit/issues), or [Scrum board] — File issues, send feature requests
-  * [appear.in/react](https://appear.in/react) — Open hours! Exchange ideas and experiences (React, GraphQL, Startups, etc.)
-  * [@koistya](https://twitter.com/koistya) on [Codementor](https://www.codementor.io/koistya), or [Skype](http://hatscripts.com/addskype?koistya) — Private consulting
-
-### License
-
-Copyright © 2014-2016 Kriasoft, LLC. This source code is licensed under the MIT
-license found in the [LICENSE.txt](https://github.com/kriasoft/react-starter-kit/blob/master/LICENSE.txt)
-file. The documentation to the project is licensed under the
-[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
-
----
-Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/kriasoft/react-starter-kit/graphs/contributors)
+ - No tests - components, api.js, routers and i18n.js should be well tested. 
+ - Unused devDependecies in package.json
+ - eslint is not configured properly

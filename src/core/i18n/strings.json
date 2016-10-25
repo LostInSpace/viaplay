@@ -1,0 +1,21 @@
+{
+  "en": {
+    "product": {
+      "imdb": {
+        "voters": "from {} voters"
+      },
+      "people": {
+        "actors": "Actors",
+        "directors": "Directors"
+      },
+      "location": "Country"
+    }
+  },
+  "sv": {
+    "product": {
+      "imdb": {
+        "voters": "från {} användare"
+      }
+    }
+  }
+}

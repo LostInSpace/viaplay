@@ -13,16 +13,12 @@ import pageRouter from "./pageRouter";
 import fetch from "./core/fetch";
 import api from "./core/api";
 
-
 const router = new Router(on => {
-    on('*', async(state) => {
+    on('*', async state => {
         let path = state.path;
-        console.log(path);
         const query = api.getUrl(path);
-        console.log(query);
         const response = await fetch(query);
         const data = await response.json();
-        console.log(JSON.stringify(data));
 
         if (data && data.responseCode && data.responseCode.httpStatus === 200) {
             state.context.data = data;

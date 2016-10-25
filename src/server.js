@@ -12,10 +12,8 @@ import path from 'path';
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
-import expressGraphQL from 'express-graphql';
 import ReactDOM from 'react-dom/server';
 import PrettyError from 'pretty-error';
-import schema from './data/schema';
 import Router from './routes';
 import assets from './assets';
 import { port } from './config';
@@ -38,16 +36,6 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 
 //
-// Register API middleware
-// -----------------------------------------------------------------------------
-server.use('/graphql', expressGraphQL(req => ({
-  schema,
-  graphiql: true,
-  rootValue: { request: req },
-  pretty: process.env.NODE_ENV !== 'production',
-})));
-
-//
 // Register server-side rendering middleware
 // -----------------------------------------------------------------------------
 server.get('*', async (req, res, next) => {
@@ -55,10 +43,6 @@ server.get('*', async (req, res, next) => {
     let statusCode = 200;
     const template = require('./views/index.jade');
     const data = { title: '', description: '', css: '', body: '', entry: assets.main.js };
-
-    if (process.env.NODE_ENV === 'production') {
-      data.trackingId = analytics.google.trackingId;
-    }
 
     const css = [];
     const context = {

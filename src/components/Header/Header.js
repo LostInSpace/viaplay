@@ -18,13 +18,12 @@ class Header extends Component {
     context: PropTypes.object.isRequired,
   };
 
-
   render() {
     return (
       <div className={s.root}>
           <div className={s.logo}>
           <Link to="/">
-            <img className={s.logoImage} src={require('./header-logo-large.png')} alt="Viaplay" />
+            <img className={s.logoImage} src="/header-logo-large.png" alt="Viaplay" />
           </Link>
             </div>
           <div className={s.sections}>

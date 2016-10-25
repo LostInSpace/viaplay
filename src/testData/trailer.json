@@ -1,0 +1,76 @@
+{
+  "adult": false,
+  "backdrop_path": "/qjn3fzCAHGfl0CzeUlFbjrsmu4c.jpg",
+  "belongs_to_collection": {
+    "id": 131635,
+    "name": "The Hunger Games Collection",
+    "poster_path": "/wrWNUgkBqWyR619tNhg1upWhkHw.jpg",
+    "backdrop_path": "/zWiiLNg8yXv0he3tCH6XignPaYV.jpg"
+  },
+  "budget": 160000000,
+  "genres": [
+    {
+      "id": 10752,
+      "name": "War"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    }
+  ],
+  "homepage": "http://www.thehungergames.movie/",
+  "id": 131634,
+  "imdb_id": "tt1951266",
+  "original_language": "en",
+  "original_title": "The Hunger Games: Mockingjay - Part 2",
+  "overview": "With the nation of Panem in a full scale war, Katniss confronts President Snow in the final showdown. Teamed with a group of her closest friends – including Gale, Finnick, and Peeta – Katniss goes off on a mission with the unit from District 13 as they risk their lives to stage an assassination attempt on President Snow who has become increasingly obsessed with destroying her. The mortal traps, enemies, and moral choices that await Katniss will challenge her more than any arena she faced in The Hunger Games.",
+  "popularity": 6.51346,
+  "poster_path": "/w93GAiq860UjmgR6tU9h2T24vaV.jpg",
+  "production_companies": [
+    {
+      "name": "Studio Babelsberg",
+      "id": 264
+    },
+    {
+      "name": "Lionsgate",
+      "id": 1632
+    },
+    {
+      "name": "Color Force",
+      "id": 5420
+    },
+    {
+      "name": "Revolution Sun Studios",
+      "id": 76043
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "DE",
+      "name": "Germany"
+    },
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2015-11-18",
+  "revenue": 639827109,
+  "runtime": 136,
+  "spoken_languages": [
+    {
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "The fire will burn forever.",
+  "title": "The Hunger Games: Mockingjay - Part 2",
+  "video": false,
+  "vote_average": 6.5,
+  "vote_count": 2138
+}

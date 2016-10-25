@@ -6,7 +6,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-
 @import '../variables.scss';
 
 .root {
@@ -21,9 +20,15 @@
 }
 
 .trailer {
-  width: 600px;
-  min-width: 600px;
+  width: 660px;
+  min-width: 660px;
+  padding: 30px 10px;
   flex: 0 0 600px;
+}
+
+.player {
+  width: 640px;
+  height: 360px;
 }
 
 .info {
@@ -31,8 +36,59 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  & > * {
+    margin: 20px 0 0 0;
+  }
 }
 
 .title {
   font-size: 40px;
+}
+
+.mainDetails {
+  font-size: 30px;
+
+  & > * {
+    white-space: nowrap;
+    float: left;
+  }
+}
+
+.mainDetailsGenre {
+  color: $gray-darker;
+}
+
+.mainDetailsSeparator {
+  margin: 0 10px;
+  height: 100%;
+  width: 1px;
+  border-left: 2px solid $gray-light;
+}
+
+.imdb > * {
+  margin: 0 10px 0 0;
+}
+
+.imdbLogo {
+  height: 25px;
+  vertical-align: bottom;
+}
+
+.imdbRating {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.synopsis {
+
+}
+
+.starring {
+
+}
+
+.actors,
+.directors,
+.location {
+  font-weight: 600;
 }
