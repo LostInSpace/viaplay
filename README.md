@@ -2,7 +2,7 @@
 
 ## Author
 
-The test assignmetn has been completed by Mykhailo Matiiasevych (michael@inspace.org.ua)
+The test assignmetn has been completed by Mykhailo Matiiasevych
 
 ## Release notes
 
@@ -11,7 +11,7 @@ The application provides movie details page with playable trailer (if applicable
 ## How to run
 
 ```
-git clone https://github.com/LostInSpace/viaplay.git
+git clone https://github.com/MykhailoMatiiasevych/viaplay.git
 npm install
 npm start
 ```
